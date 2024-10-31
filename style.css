@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components; 
+@tailwind utilities;
+
+.slide{
+@apply opacity-0 transition-opacity duration-300 ease-in-out absolute inset-0;
+}
+.slide img {
+@apply object-cover h-full w-full;
+}
+.slide-active{
+  @apply opacity-100 relative;
+}
